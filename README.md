@@ -1,16 +1,22 @@
-*Auto Corrector
-This Python script performs automatic spelling correction and sentence-level tokenization on input text. It uses the spaCy library for sentence segmentation and TextBlob for spelling correction.
+AUTO CORRECTOR
+ *This python script perform automatic spelling correction and sentence level tokenization on input text it use (spacy) library for sentence segementation and (textblob) for spelling correction.
 
-*Features
-Splits input paragraph into sentences.
-Corrects spelling errors in each sentence.
-Joins corrected sentences back into a paragraph.
-Capitalizes the first letter of each corrected sentence.
-*Requirements
-Python 3.x
-spaCy
-TextBlob
-spaCy English language model (en_core_web_sm)
-*Installation
+*FEATURES
+  1.split input paragraph into sentence
+  2.correct spelling error in each sentence
+  3.join corrected sentence  back into a paragraph
+  4.capitalizes the first letter of each corrected sentence
+
+
+*REQUIREMENTS
+ 1python3x
+ 2.spacy
+ 3.textblob
+ 4.spacy english language model(en_core_web_sm)
+ 
+
+*INSTALLATION
 pip install spacy textblob
-python -m spacy download en_core_web_sm
+python -m  spacy download en_core_we_sm
+
+
